@@ -10,7 +10,7 @@ const Navbar = () => {
   const menubar = (
     <>
       <li className="text-[#D12928] font-pfdinmono hover:text-[#00CE1B] md:ml-8 md:my-0 my-7 text-[21px]">
-        <Link to="/browsealldesign">Browse All Design</Link>
+        <Link to="/browsealldesign">Browse All Design</Link>{" "}
       </li>
       <li className="text-[#D12928] font-semibold font-pfdinmono hover:text-[#00CE1B]   md:ml-8 md:my-0 my-7 text-[21px]">
         <Link to="/designservices">Design Services</Link>
@@ -29,27 +29,13 @@ const Navbar = () => {
 
   return (
     <section className=" w-full top-0 left-0">
-      <div className="md:flex md:items-start items-center justify-between  py-2 md:px-40 lg:px-40 px-10">
+      <div className="flex md:items-start items-center justify-between  py-2 md:px-40 lg:px-36 px-10">
         <div className="w-[120px] flex items-center">
           <Link to="/">
             <img src={logo} alt="" />
           </Link>
         </div>
-        <div className="callIcon relative md:left-[825px] left-[360px] md:top-9 bottom-16">
-          <img
-            width="25"
-            src="https://img.icons8.com/ios-glyphs/30/phone--v1.png"
-            alt=""
-          />
-        </div>
-        <div className="searchIcon relative md:left-[825px] left-[325px] md:top-9 bottom-[92px]">
-          <img
-            width="25"
-            height="50"
-            src="https://img.icons8.com/ios-filled/50/search--v1.png"
-            alt="search--v1"
-          />
-        </div>
+        <div></div>
         <div onClick={() => setOpen(!open)}>
           {open ? (
             <div className="absolute right-8 top-10 cursor-pointer md:hidden ">
@@ -70,6 +56,23 @@ const Navbar = () => {
           >
             {menubar}
           </ul>
+        </div>
+        <div className="md:flex flex mr-10 lg:mt-9 md:mt-9 mt-0 gap-4">
+          <div className="callIcon">
+            <img
+              width="25"
+              src="https://img.icons8.com/ios-glyphs/30/phone--v1.png"
+              alt=""
+            />
+          </div>
+          <div className="searchIcon">
+            <img
+              width="25"
+              height="50"
+              src="https://img.icons8.com/ios-filled/50/search--v1.png"
+              alt="search--v1"
+            />
+          </div>
         </div>
       </div>
     </section>

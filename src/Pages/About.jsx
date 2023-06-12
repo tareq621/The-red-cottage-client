@@ -1,23 +1,24 @@
 import red from "../assets/Website-20230527T011956Z-001/Website/About us/About us Assets/IMG_3253.jpg";
+import "./CSS/About.css";
 
 const About = () => {
   return (
     <section>
-      <div className="container bg-aboutBackground bg-cover bg-no-repeat	bg-bottom h-[960px]">
+      <div className="containerAbout">
         <div className="pt-10">
-          <h1 className="text-[#000000] text-[54px] gitfont-pfdinmono text-center">
+          <h1 className="text-[#000000] text-[54px] font-pfdinmono text-center">
             About the Red Cottage
           </h1>
         </div>
       </div>
 
-      <div className="bg-articleBackground  bg-cover bg-no-repeat h-[800px]">
-        <div className="whiteBackground bg-articleBackground  bg-cover bg-no-repeat bg-bottom relative top-[-160px] h-[800px] ">
+      <div className="articleBackground">
+        <div className="">
           <div className="aboutContainer pt-16">
-            <div className="flex gap-28 justify-center mt-10">
+            <div className="md:flex flex-wrap flex-cols gap-28  justify-center mt-10">
               <div>
                 <ul>
-                  <a className="flex items-center">
+                  <a className="flex justify-center items-center">
                     <span className="mx-3">
                       <img className="w-[15px]" src={red} alt="" />
                     </span>
@@ -29,7 +30,7 @@ const About = () => {
               </div>
               <div>
                 <ul>
-                  <a className="flex items-center">
+                  <a className="flex justify-center items-center">
                     <span className="mx-3">
                       <img className="w-[15px]" src={red} alt="" />
                     </span>
@@ -40,10 +41,10 @@ const About = () => {
                 </ul>
               </div>
             </div>
-            <div className="secondPart flex gap-28 justify-center mt-10">
+            <div className="secondPart md:flex flex-cols gap-28 justify-center mt-10">
               <div>
                 <ul>
-                  <a className="flex items-center">
+                  <a className="flex items-center justify-center">
                     <span className="mx-3">
                       <img className="w-[15px]" src={red} alt="" />
                     </span>
@@ -55,7 +56,7 @@ const About = () => {
               </div>
               <div>
                 <ul>
-                  <a className="flex items-center">
+                  <a className="flex items-center justify-center">
                     <span className="mx-3">
                       <img className="w-[15px]" src={red} alt="" />
                     </span>
@@ -67,7 +68,7 @@ const About = () => {
               </div>
               <div>
                 <ul>
-                  <a className="flex items-center">
+                  <a className="flex items-center justify-center">
                     <span className="mx-3">
                       <img className="w-[15px]" src={red} alt="" />
                     </span>
@@ -79,10 +80,10 @@ const About = () => {
               </div>
             </div>
             <div>
-              <div className="secondPart flex gap-28 justify-center mt-10">
+              <div className="thirdPartPart md:flex flex-cols gap-28 justify-center mt-10">
                 <div>
                   <ul>
-                    <a className="flex items-center">
+                    <a className="flex items-center justify-center">
                       <span className="mx-3">
                         <img className="w-[15px]" src={red} alt="" />
                       </span>
@@ -94,7 +95,7 @@ const About = () => {
                 </div>
                 <div>
                   <ul>
-                    <a className="flex items-center">
+                    <a className="flex items-center justify-center">
                       <span className="mx-3">
                         <img className="w-[15px]" src={red} alt="" />
                       </span>
@@ -106,7 +107,7 @@ const About = () => {
                 </div>
                 <div>
                   <ul>
-                    <a className="flex items-center">
+                    <a className="flex items-center justify-center">
                       <span className="mx-3">
                         <img className="w-[15px]" src={red} alt="" />
                       </span>
@@ -119,8 +120,8 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="articleContainer mt-10 px-24 font-pfdinmono font-normal	 justify-center">
-            <p className="text-[21px] tracking-wide">
+          <div className="articleContainer lg:mt-28 mt-10 lg:px-24 md:px-24 px-3 font-pfdinmono font-normal	justify-center">
+            <p className="lg:text-[21px] text-[16px] tracking-wide">
               Brian K. Eicholtz was raised in a family of framers and builders
               and has been freelance \Designing homes since 1991. Although
               having roots in East Michigan, and West Central Florida, he has
@@ -131,15 +132,15 @@ const About = () => {
               to read, so that the intent of the design is reflected in the
               completed home.
             </p>
-            <p className="pt-5 text-[21px]">
+            <p className="pt-5 lg:text-[21px] text-[16px]">
               Currently on TheRedCottage.com are the designs of Brian K.
               Eicholtz and select guest designers. Copyrights of the respective
               plans are on the plan pages.
             </p>
-            <p className="pt-5 text-[21px]">
+            <p className="pt-5 lg:text-[21px] text-[16px]">
               I look forward to working with you!
             </p>
-            <p className="pt-5 text-[21px]"> Sincerely,</p>
+            <p className="pt-5 lg:text-[21px] text-[16px]"> Sincerely,</p>
             <h1 className="pt-5 text-[21px] text-[#E20303]">
               Brain K. Eicholtz
             </h1>

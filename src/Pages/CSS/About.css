@@ -1,0 +1,59 @@
+.containerAbout{
+    background-image: url('https://theredcottage.ca/wp-content/uploads/2023/05/Upper-banner-customed-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    height: 1000px;
+
+    
+}
+.articleBackground{
+    background-image: url('https://theredcottage.ca/wp-content/uploads/2023/05/Vector-Smart-Object2.png');
+    background-size: cover;
+    background-color: #02010100;
+    background-position: center center;
+    width: 1423px;
+    left: 0;
+    height: 1000px;
+    position: relative;
+    margin-top: -14%;
+    margin-bottom: 0px;
+    
+}
+
+
+@media (max-width: 1024px) {
+    .containerAbout {
+        background-image: url('https://theredcottage.ca/wp-content/uploads/2023/05/Upper-banner-customed-img.png');
+        background-size: cover;
+        height: 500px;
+    }
+    .articleBackground{
+        background-image: url('https://theredcottage.ca/wp-content/uploads/2023/05/Vector-Smart-Object2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 100%;
+        height: 1212px;
+        position: relative;
+        margin-top: -11%;
+    }
+  }
+
+@media (max-width: 768px) {
+    .containerAbout {
+        background-image: url('https://theredcottage.ca/wp-content/uploads/2023/05/Upper-banner-customed-img.png');
+        background-size: cover;
+        height: 500px;
+    }
+    .articleBackground{
+        background-image: url('https://theredcottage.ca/wp-content/uploads/2023/05/Vector-Smart-Object2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 100%;
+        height: 1212px;
+        position: relative;
+        margin-top: -11%;
+    }
+  }

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="footer py-28 px-16 gap-28 w-full bg-[#231F20] text-[#FCFCFC]">
+    <footer className="footer lg:py-28 md:py-24 py-20 lg:px-16 md:px-16 px-5 lg:gap-28 md:gap-28 gap-10 w-full bg-[#231F20] static text-[#FCFCFC]">
       <div>
         <span className="text-[20px] font-pfdinmono font-bold text-[#FCFCFC] pb-3">
           Contact Information
@@ -74,7 +74,7 @@ const Footer = () => {
           />
           <button
             className="btn hover:bg-[#991A1E] 
-          font-pfdinmono px-3 py-1 btn-bg-[#E20303] border-none rounded-r-lg rounded-none text-[white] absolute   top-0 right-0  bg-[#991A1E]"
+          font-pfdinmono lg:px-3 md:px-3 px-[150px] lg:py-1 md:py-1 btn-bg-[#E20303] border-none lg:rounded-r-lg rounded rounded lg:mt-0 md:mt-0 mt-2 text-[white] lg:absolute   top-0 right-0  bg-[#991A1E]"
           >
             Sing Up
           </button>
