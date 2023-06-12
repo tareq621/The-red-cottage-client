@@ -1,6 +1,7 @@
-import callContactGmail from "../assets/Website-20230527T011956Z-001/Website/contact/Contact us-assets/icons 3d.png";
+import callContactGmail from "../assets/Website-20230527T011956Z-001/Website/contact/Contact_us__assets/icons 3d.png";
 import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
+import "./CSS/Contact.css";
 
 const Contact = () => {
   const form = useRef();
@@ -29,56 +30,56 @@ const Contact = () => {
   return (
     <section>
       <div className="relative">
-        <button className="absolute left-[40%] top-[1250px]  hover:bg-none text-[#CE1616] font-pfdinmono text-[20px] py-3 px-7 w-64 bg-[#ffffff] rounded">
+        <button className="absolute md:left-[40%] left-[27%] md:top-[1250px] lg:top-[1250px] top-[1650px]  hover:bg-none text-[#CE1616] font-pfdinmono text-[20px] py-3 px-7 w-64 bg-[#ffffff] rounded">
           Browse All Design
         </button>
       </div>
-      <div className="container bg-contactBackground bg-cover bg-no-repeat	bg-left-bottom h-screen">
-        <div className="pt-10 flex basis-8/12 justify-center items-center">
-          <h1 className="text-[#000000] text-[60px] mt-28 font-extrabold font-pfdinmono text-center">
-            CONTACT US
+      <div className="containerContact">
+        <div className="pt-10">
+          <h1 className="text-[#000000] text-[54px] font-pfdinmono text-center">
+            About the Red Cottage
           </h1>
         </div>
       </div>
       <div className="formSection bg-[#ECECEB] h-auto">
-        <div className="px-3 flex">
+        <div className="px-3 flex-cols md:flex lg:flex">
           <div className="pr-20">
-            <p className="font-pfdinmono font-medium mt-20">
+            <p className="font-pfdinmono font-medium md:mt-20 lg:mt-20 mt-10">
               “*” Indicates required fileds
             </p>
             <div className="fromContainer mt-10">
               <form ref={form} onSubmit={sendEmail} className="w-1/2">
-                <div className="flex gap-2">
+                <div className="md:flex lg:flex flex-cols gap-2">
                   <div>
                     <input
                       type="text"
                       placeholder="Name"
                       name="name"
                       className="input focus:outline-none 
-                    input-bordered border-[#69727d] text-[15px] w-[280px] h-9 max-w-xs rounded-none"
+                    input-bordered border-[#69727d] text-[15px] w-[280px] md:w-[380px]  h-9 max-w-xs rounded-none"
                     />
                     <input
                       type="text"
                       placeholder="Company"
                       name="company"
                       className="input focus:outline-none 
-                    input-bordered border-[#69727d] text-[15px] w-[280px] h-9 mt-2 max-w-xs rounded-none"
+                    input-bordered border-[#69727d] text-[15px] w-[280px] md:w-[380px]  h-9 mt-2 max-w-xs rounded-none"
                     />
                   </div>
-                  <div>
+                  <div className="mt-2 md:mt-0 lg:mt-0">
                     <input
                       type="text"
                       placeholder="Phone"
                       name="phone"
                       className="input focus:outline-none 
-                    input-bordered border-[#69727d] text-[15px] w-[280px] h-9 max-w-xs rounded-none"
+                    input-bordered border-[#69727d] text-[15px] w-[280px] md:w-[380px] h-9 max-w-xs rounded-none"
                     />
                     <input
                       type="email*"
                       placeholder="Email*"
                       name="email"
                       className="input focus:outline-none 
-                    input-bordered border-[#69727d] text-[15px] w-[280px] h-9 mt-2 max-w-xs rounded-none"
+                    input-bordered border-[#69727d] text-[15px] w-[280px] md:w-[380px]  h-9 mt-2 max-w-xs rounded-none"
                     />
                   </div>
                 </div>
@@ -87,15 +88,15 @@ const Contact = () => {
                   placeholder="Subject*"
                   name="subject"
                   className="input focus:outline-none 
-                    input-bordered border-[#69727d] text-[15px] w-[569px] h-9 mt-2  rounded-none"
+                    input-bordered border-[#69727d] text-[15px] w-[280px] md:w-[569px] lg:w-[569px] h-9 mt-2  rounded-none"
                 />
                 <textarea
                   className="focus:outline-none 
-                     border border-slate-500 text-[15px] w-[569px] h-24 mt-2  rounded-none pl-4 pt-2"
+                     border border-slate-500 text-[15px] w-[280px] md:w-[569px] lg:w-[569px]  h-24 mt-2  rounded-none pl-4 pt-2"
                   placeholder="Message*"
                   name="textarea"
                 ></textarea>
-                <div className="relative left-[417px]">
+                <div className="md:relative lg:relative relative-none left-[417px]">
                   <button
                     type="submit"
                     className="bg-[#CE1616] text-white font-pfdinmono py-2 px-6 rounded"

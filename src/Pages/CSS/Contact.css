@@ -1,0 +1,25 @@
+.containerContact{
+    background-image: url('https://theredcottage.ca/wp-content/uploads/2023/05/upper-banner-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    height: 800px;
+    
+}
+@media (max-width: 1024px) {
+    .containerContact {
+        background-image: url('https://theredcottage.ca/wp-content/uploads/2023/05/upper-banner-img.png');
+        background-size: cover;
+        height: 500px;
+    }
+    
+  }
+
+@media (max-width: 768px) {
+    .containerContact {
+        background-image: url('https://theredcottage.ca/wp-content/uploads/2023/05/upper-banner-img.png');
+        background-size: cover;
+        height: 500px;
+    }
+    
+  }
