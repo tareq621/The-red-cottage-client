@@ -16,7 +16,7 @@ const Cottages = () => {
       className="cottageLibrary relative bottom-20 "
     >
       <h1
-        className="text-[60px] font-belleza text-[#E20303] my-10
+        className="text-[60px] font-belleza text-[#E20303] my-6
             text-center"
       >
         Our Home Plan Styles

@@ -1,17 +1,48 @@
-
 .background{
     position: relative;
-    bottom: 167px;
+    bottom: 182px;
 }
-
 
 .kuddus{
     background-image: url("../../assets/Website-20230527T011956Z-001//Website/HomePage/Assets/upper.png");
     background-size: cover;
-    background-position: bottom center;
-    height: 800px;
-    
-    
-    
-
 }
+
+@media (max-width: 640px) {
+    .background{
+        position: relative;
+        bottom: 170px;
+    }
+    
+    .kuddus{
+        background-image: url("../../assets/Website-20230527T011956Z-001//Website/HomePage/Assets/upper.png");
+        background-size: cover;
+    height: 570px;
+    }   
+      }
+
+@media (max-width: 768px) {
+.background{
+    position: relative;
+    bottom: 1170px;
+}
+
+.kuddus{
+    background-image: url("../../assets/Website-20230527T011956Z-001//Website/HomePage/Assets/upper.png");
+    background-size: cover;
+height: 470px;
+}   
+  }
+
+  @media (max-width: 1024px) {
+    .background{
+        position: relative;
+        bottom: 140px;
+    }
+    
+    .kuddus{
+        background-image: url("../../assets/Website-20230527T011956Z-001//Website/HomePage/Assets/upper.png");
+        background-size: cover;
+    height: 670px;
+    }   
+      }

@@ -8,14 +8,14 @@ const FromUs = () => {
   return (
     <container className="background">
       <section className="kuddus">
-        <div className="flex">
-          <div className="mt-[250px] ms-24">
-            <div className="text-[85px] leading-[120px] font-medium ">
+        <div className="flex-cols md:flex lg:flex">
+          <div className="md:mt-[250px] lg:mt-[250px] mt-6 md:ms-24 lg:ms-24 ms-2">
+            <div className="md:text-[85px] lg:text-[85px] text-[50px] leading-[55px] lg:leading-[120px]  md:leading-[120px] font-medium ">
               <p className="font-belleza">
                 Why Buy Directly<br></br> From Us?
               </p>
             </div>
-            <div className="mt-16">
+            <div className="md:mt-16 lg:mt-16 mt-28">
               <a href="">
                 <button
                   style={{
@@ -36,13 +36,16 @@ const FromUs = () => {
             </div>
           </div>
 
-          <div className="icon_section flex md:flex-col flex-row ms-40 gap-28 mt-[400px]">
+          <div
+            className="icon_section md:mr-0 lg:mr-0 mr-52 flex-cols 
+           md:flex-col flex-row md:ms-40 lg:ms-40 ms-0 gap-28 md:mt-[400px] lg:mt-[400px] mt-[80px]"
+          >
             <div className="fromUsText">
-              <div className="flex justify-center items-center gap-36 mr-28">
+              <div className="flex justify-center items-center mg:gap-36 md:gap-36 gap-20 mr-28">
                 <div className="icon1 flex">
                   <img className="w-12 h-16" src={badge} alt="" />
 
-                  <p className="my-3 leading-normal font-arabic pl-3 text-[16px]">
+                  <p className="my-3 leading-normal font-pfdinmono pl-3 text-[16px]">
                     Beautiful, award wining home plan design
                   </p>
                 </div>
@@ -56,29 +59,27 @@ const FromUs = () => {
                 </div>
               </div>
 
-              <div className="flex gap-12">
-                <div className="icon3 flex justify-center">
+              <div className="flex justify-center items-center mg:gap-36 md:gap-36 gap-20 mr-28">
+                <div className="icon1 flex">
                   <img className="w-12 h-16" src={designer} alt="" />
-                  <div>
-                    <p className="my-3 pl-3 text-[16px] font-pfdinmono">
-                      Our land designer have combined 55 years experience
-                    </p>
-                  </div>
-                </div>
 
-                <div className="icon4 flex justify-center">
+                  <p className="my-3 leading-normal font-pfdinmono pl-3 text-[16px]">
+                    Our land designer have combined 55 years experience{" "}
+                  </p>
+                </div>
+                <div className="icon2 flex ml-10">
                   <img className="w-12 h-16" src={pdf} alt="" />
                   <div>
-                    <p className="my-3 pl-3 text-[16px] font-pfdinmono font-semibold">
+                    <p className="my-3 pl-3 text-[16px] font-pfdinmono ">
                       Receive your plan today - most PDF plans are fulfilled the
-                      same day.*
+                      same day.*{" "}
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div>
-              <li className="list-disc font-pfdinmono">
+              <li className="list-disc font-pfdinmono md:mt-24 lg:mt-24 mt-1">
                 Plan modification may take longer
               </li>
             </div>
