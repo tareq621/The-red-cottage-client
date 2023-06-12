@@ -1,0 +1,17 @@
+
+.background{
+    position: relative;
+    bottom: 167px;
+}
+
+
+.kuddus{
+    background-image: url("../../assets/Website-20230527T011956Z-001//Website/HomePage/Assets/upper.png");
+    background-size: cover;
+    background-position: bottom center;
+    height: 800px;
+    
+    
+    
+
+}

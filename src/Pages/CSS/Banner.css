@@ -1,0 +1,16 @@
+.bannerBackground{
+    background-image: url("../../assets/Website-20230527T011956Z-001/Website/HomePage/Assets/banner.png");
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    height: 670px;
+
+}
+
+/* @media only screen and (max-width: 767px) {
+    .bannerBackground {
+        background-position: top center;
+        background-size: contain;
+        margin-right: 110px;
+    }
+} */

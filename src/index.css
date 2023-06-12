@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: PFDinMono;
+  src: url('./Font/FontsFree-Net-PF-Din-Mono-W01-Medium.ttf');
+}
+
+@font-face {
+  font-family: belleza;
+  src: url('./Font/Belleza-Regular.ttf');
+}
+
+@font-face {
+  font-family: arabic;
+  src: url('./Font/Droid\ Arabic\ Kufi\ Regular.ttf');
+}
+
+
+
+:root {
+
+  /* color-scheme: white;
+  color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #646cff; */
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+
+
+
+
+
+
+/* a:hover {
+  color: #00CE1B;
+} */
+
+/* body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+} */
+
+/* h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: black;
+} */
+
+button:hover {
+  border-color: #000000;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

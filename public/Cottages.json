@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Bungalows",
+    "image": "https://theredcottage.ca/wp-content/uploads/2023/05/Storybook-Bungalow-Home.webp"
+  },
+  {
+    "id": 2,
+    "name": "Cottage",
+    "image": "https://theredcottage.ca/wp-content/uploads/2023/05/Cottages.webp"
+  },
+  {
+    "id": 3,
+    "name": "Craftsman",
+    "image": "https://theredcottage.ca/wp-content/uploads/2023/05/craftsmnan.webp"
+  },
+  {
+    "id": 4,
+    "name": "Farmhouse",
+    "image": "https://theredcottage.ca/wp-content/uploads/2023/05/Farmhouse.webp"
+  },
+  {
+    "id": 5,
+    "name": "Hillside Homes",
+    "image": "https://theredcottage.ca/wp-content/uploads/2023/05/hillside-homes.webp"
+  },
+  {
+    "id": 6,
+    "name": "Mountain",
+    "image": "https://theredcottage.ca/wp-content/uploads/2023/05/Rustic-Mountain-Cottage.webp"
+  },
+  {
+    "id": 7,
+    "name": "Ranches",
+    "image": "https://theredcottage.ca/wp-content/uploads/2023/05/Ranches.webp"
+  },
+  {
+    "id": 8,
+    "name": "Vacation Home",
+    "image": "https://theredcottage.ca/wp-content/uploads/2023/05/Vacation-Homes.webp"
+  }
+]
