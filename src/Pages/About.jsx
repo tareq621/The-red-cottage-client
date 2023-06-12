@@ -5,7 +5,7 @@ const About = () => {
     <section>
       <div className="container bg-aboutBackground bg-cover bg-no-repeat	bg-bottom h-[960px]">
         <div className="pt-10">
-          <h1 className="text-[#d80e0e] text-[54px] gitfont-pfdinmono text-center">
+          <h1 className="text-[#000000] text-[54px] gitfont-pfdinmono text-center">
             About the Red Cottage
           </h1>
         </div>
