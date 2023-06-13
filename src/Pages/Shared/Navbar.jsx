@@ -4,8 +4,10 @@ import menu from "../../assets/drive-download-20230527T011812Z-001/menu.png";
 import close from "../../assets/drive-download-20230527T011812Z-001/close.png";
 import { useState } from "react";
 import "../CSS/Navbar.css";
+import SearchPage from "../Home/SearchPage";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [search, setSearch] = useState("");
 
   const menubar = (
     <>
@@ -65,13 +67,28 @@ const Navbar = () => {
               alt=""
             />
           </div>
-          <div className="searchIcon">
-            <img
-              width="25"
-              height="50"
-              src="https://img.icons8.com/ios-filled/50/search--v1.png"
-              alt="search--v1"
-            />
+          <div onClick={() => setSearch(!search)} className="searchIcon">
+            {!search ? (
+              <div>
+                <img
+                  width="25"
+                  height="50"
+                  src="https://img.icons8.com/ios-filled/50/search--v1.png"
+                  alt="search--v1"
+                />
+              </div>
+            ) : (
+              <div>
+                <img
+                  width="25"
+                  height="50"
+                  src="https://img.icons8.com/ios-filled/50/search--v1.png"
+                  alt="search--v1"
+                />
+
+                <SearchPage />
+              </div>
+            )}
           </div>
         </div>
       </div>

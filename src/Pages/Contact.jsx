@@ -1,6 +1,6 @@
 import callContactGmail from "../assets/Website-20230527T011956Z-001/Website/contact/Contact_us__assets/icons 3d.png";
 import emailjs from "@emailjs/browser";
-import React, { useRef } from "react";
+import { useRef } from "react";
 import "./CSS/Contact.css";
 
 const Contact = () => {
