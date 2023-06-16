@@ -19,6 +19,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          alert("Send Successful");
         },
         (error) => {
           console.log(error.text);
@@ -88,11 +89,11 @@ const Contact = () => {
                   placeholder="Subject*"
                   name="subject"
                   className="input focus:outline-none 
-                    input-bordered border-[#69727d] text-[15px] w-[280px] md:w-[569px] lg:w-[569px] h-9 mt-2  rounded-none"
+                    input-bordered border-[#69727d] text-[15px] w-[280px] md:w-[648px] lg:w-[648px] h-9 mt-2  rounded-none"
                 />
                 <textarea
                   className="focus:outline-none 
-                     border border-slate-500 text-[15px] w-[280px] md:w-[569px] lg:w-[569px]  h-24 mt-2  rounded-none pl-4 pt-2"
+                     border border-slate-500 text-[15px] w-[280px] md:w-[648px] lg:w-[648px]  h-24 mt-2  rounded-none pl-4 pt-2"
                   placeholder="Message*"
                   name="textarea"
                 ></textarea>

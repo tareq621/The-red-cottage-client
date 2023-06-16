@@ -7,7 +7,7 @@ import "../CSS/Navbar.css";
 import SearchPage from "../Home/SearchPage";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState(false);
 
   const menubar = (
     <>
@@ -68,28 +68,20 @@ const Navbar = () => {
             />
           </div>
           <div onClick={() => setSearch(!search)} className="searchIcon">
-            {!search ? (
-              <div>
-                <img
-                  width="25"
-                  height="50"
-                  src="https://img.icons8.com/ios-filled/50/search--v1.png"
-                  alt="search--v1"
-                />
-              </div>
-            ) : (
-              <div>
-                <img
-                  width="25"
-                  height="50"
-                  src="https://img.icons8.com/ios-filled/50/search--v1.png"
-                  alt="search--v1"
-                />
-
-                <SearchPage />
-              </div>
-            )}
+            <div>
+              <img
+                width="25"
+                height="50"
+                src="https://img.icons8.com/ios-filled/50/search--v1.png"
+                alt="search--v1"
+              />
+            </div>
           </div>
+          {search && (
+            <div>
+              <SearchPage search={search} setSearch={setSearch} />
+            </div>
+          )}
         </div>
       </div>
     </section>
