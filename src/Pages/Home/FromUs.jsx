@@ -6,7 +6,7 @@ import "../CSS/FromUs.css";
 
 const FromUs = () => {
   return (
-    <container className="background">
+    <section className="background">
       <section className="kuddus">
         <div className="flex-cols md:flex lg:flex">
           <div className="md:mt-[250px] lg:mt-[250px] mt-6 md:ms-24 lg:ms-24 ms-2">
@@ -86,7 +86,7 @@ const FromUs = () => {
           </div>
         </div>
       </section>
-    </container>
+    </section>
   );
 };
 

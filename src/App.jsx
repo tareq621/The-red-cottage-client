@@ -8,6 +8,7 @@ import Faq from "./Pages/Faq";
 import DesignServices from "./Pages/DesignServices";
 import BrowseAllDesign from "./Pages/BrowseAllDesign";
 import Contact from "./Pages/Contact";
+import SearchResult from "./Pages/Home/SearchResult";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           element={<BrowseAllDesign></BrowseAllDesign>}
         ></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
+        <Route path="/search/:searchId" element={<SearchResult />}></Route>
       </Routes>
       <Footer></Footer>
     </div>
