@@ -78,7 +78,7 @@ const Contact = () => {
                     <input
                       type="email*"
                       placeholder="Email*"
-                      name="email"
+                      name="user_email"
                       className="input focus:outline-none 
                     input-bordered border-[#69727d] text-[15px] w-[280px] md:w-[380px]  h-9 mt-2 max-w-xs rounded-none"
                     />
