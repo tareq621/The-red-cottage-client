@@ -13,11 +13,17 @@ const SearchPage = ({ search, setSearch }) => {
   };
 
   return (
-    <div>
+    <>
       <div className="bg-[rgb(0,0,0,8)] fixed top-0 left-0 right-0 bottom-0 z-[9998] opacity-[0.7] md:h-[1212px] h-[572px]">
         <button
           onClick={() => setSearch(!search)}
-          className="absolute left-[1200px] md:h-[1212px] h-[572px]"
+          className="absolute left-[1200px] md:h-[1212px] h-[572px] mr-28 p-60"
+        >
+          cancel
+        </button>
+        <button
+          onClick={() => setSearch(!search)}
+          className="absolute right-[1200px] md:h-[1212px] h-[572px] ml-28 p-60"
         >
           cancel
         </button>
@@ -30,11 +36,17 @@ const SearchPage = ({ search, setSearch }) => {
                 type="search"
                 placeholder="Search..."
               />
+              <button
+                onClick={() => setSearch(!search)}
+                className="absolute right-[100px] mt-20 md:h-[1212px] h-[572px] w-full p-60"
+              >
+                cancel
+              </button>
             </div>
           </form>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

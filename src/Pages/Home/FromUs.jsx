@@ -9,7 +9,7 @@ const FromUs = () => {
     <section className="background">
       <section className="kuddus">
         <div className="flex-cols md:flex lg:flex ">
-          <div className="md:mt-[250px] lg:mt-[250px] mt-72 md:ms-24 lg:ms-24 ms-16 lg:pt-0 pt-40">
+          <div className="md:mt-[210px] lg:mt-[250px] mt-72 md:ms-24 lg:ms-24 ms-16 lg:pt-0 pt-40">
             <div className="md:text-[85px] lg:text-[85px] text-[50px] leading-[55px] lg:leading-[120px]  md:leading-[120px] font-medium ">
               <p className="font-belleza">
                 Why Buy Directly<br></br> From Us?
