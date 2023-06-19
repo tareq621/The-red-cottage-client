@@ -8,14 +8,14 @@ const FromUs = () => {
   return (
     <section className="background">
       <section className="kuddus">
-        <div className="flex-cols md:flex lg:flex  pl-36">
+        <div className="flex-cols md:flex lg:flex md:pl-36 lg:pl-36 pl-3">
           <div className="">
             <div className="md:text-[85px] lg:text-[85px] text-[50px] font-medium ">
               <p className="font-belleza pt-44">
                 Why Buy Directly<br></br> From Us?
               </p>
             </div>
-            <div className="py-10">
+            <div className="lg:py-10 md:py-10 pt-3">
               <a href="">
                 <button
                   style={{
@@ -39,9 +39,9 @@ const FromUs = () => {
           <div
             className="icon_section  flex-cols 
            md:flex-col flex-row justify-center
-          md:mt-[380px] lg:mt-[350px] mt-[36px]"
+          md:mt-[380px] lg:mt-[350px] mt-0 pb-10"
           >
-            <div className="fromUsText ml-20 mr-28">
+            <div className="fromUsText md:ml-20 lg-ml-22 md:mr-28 lg-mr-32 ml-2 mr-2">
               <div className="flex justify-center items-center gap-x-24 pb-5">
                 <div className="icon1 flex">
                   <img className="w-12 h-16" src={badge} alt="" />

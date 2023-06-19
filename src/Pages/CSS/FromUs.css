@@ -11,43 +11,16 @@
     height: min-content;
 }
 
-@media (max-width: 640px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
     .background{
         position: relative;
-        bottom: 170px;
+        bottom: 175px;
     }
-    
     .kuddus{
         background-image: url("../../assets/Website-20230527T011956Z-001//Website/HomePage/Assets/upper.png");
         background-size: cover;
-        height: 1000px;
     
-    }   
-      }
+        
+    }
 
-@media (max-width: 768px) {
-.background{
-    position: relative;
-    bottom: 1170px;
-}
-
-.kuddus{
-    background-image: url("../../assets/Website-20230527T011956Z-001//Website/HomePage/Assets/upper.png");
-    background-size: cover;
-    background-position: center bottom;
-
-}   
   }
-
-  @media (max-width: 1024px) {
-    .background{
-        position: relative;
-        bottom: 455px;
-    }
-    
-    .kuddus{
-        background-image: url("../../assets/Website-20230527T011956Z-001//Website/HomePage/Assets/upper.png");
-        background-size: cover;
-    height: 870px;
-    }   
-      }
