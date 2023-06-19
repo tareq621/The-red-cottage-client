@@ -8,7 +8,7 @@ const From = () => {
           Browse All Design
         </button>
       </div>
-      <div className="md:ml-24 ml-8 md:py-16 py-10 pt-40">
+      <div className="md:ml-24 ml-3 md:py-16 py-10 pt-40">
         <div className="form-control max-w-md">
           <label className="label">
             <span className="label-text text-[20px] font-pfdinmono font-bold">

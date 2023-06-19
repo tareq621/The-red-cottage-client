@@ -10,19 +10,20 @@ const SearchPage = ({ search, setSearch }) => {
     const result = searchRef.current.value;
     console.log(result);
     navigate(`/search/${result}`);
+    event.target.reset();
   };
 
   return (
     <>
       <div className="bg-[rgb(0,0,0,8)] fixed top-0 left-0 right-0 bottom-0 z-[9998] opacity-[0.7] md:h-[1212px] h-[572px]">
         <button
-          onClick={() => setSearch(!search)}
+          onSubmit={() => setSearch(!search)}
           className="absolute left-[1200px] md:h-[1212px] h-[572px] mr-28 p-60"
         >
           cancel
         </button>
         <button
-          onClick={() => setSearch(!search)}
+          onSubmit={() => setSearch(!search)}
           className="absolute right-[1200px] md:h-[1212px] h-[572px] ml-28 p-60"
         >
           cancel
@@ -37,7 +38,7 @@ const SearchPage = ({ search, setSearch }) => {
                 placeholder="Search..."
               />
               <button
-                onClick={() => setSearch(!search)}
+                onSubmit={() => setSearch(!search)}
                 className="absolute right-[100px] mt-20 md:h-[1212px] h-[572px] w-full p-60"
               >
                 cancel

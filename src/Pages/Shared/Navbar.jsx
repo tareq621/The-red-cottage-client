@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
     <section className=" w-full top-0 left-0">
       <div className="flex md:items-start items-center justify-between  py-2 ">
-        <div className="w-[120px] flex items-center md:ml-40 lg-ml-40 ml-10">
+        <div className="lg:w-[120px] md:w-[120px] w-[100px] flex items-center md:ml-40 lg-ml-40 ml-10">
           <Link to="/">
             <img src={logo} alt="" />
           </Link>

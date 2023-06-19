@@ -7,8 +7,8 @@ const Footer = () => {
         <span className="text-[20px] font-pfdinmono font-bold text-[#FCFCFC] pb-3">
           Contact Information
         </span>
-        <p className="">The Red Cottage</p>
-        <p className="">Palm Coast, Fl, 32137 USA</p>
+        <p className="font-pfdinmono ">The Red Cottage</p>
+        <p className="font-pfdinmono ">Palm Coast, Fl, 32137 USA</p>
         <div className="mt-3 flex gap-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -70,11 +70,11 @@ const Footer = () => {
           <input
             type="text"
             placeholder="Your Email Address....."
-            className="input text-black font-belleza rounded-l-lg pr-40"
+            className="input text-black font-belleza rounded-l-lg pr-40 w-full"
           />
           <button
             className="btn hover:bg-[#991A1E] 
-          font-pfdinmono lg:px-3 md:px-3 px-[150px] lg:py-1 md:py-1 btn-bg-[#E20303] border-none lg:rounded-r-lg rounded rounded lg:mt-0 md:mt-0 mt-2 text-[white] lg:absolute   top-0 right-0  bg-[#991A1E]"
+          font-pfdinmono lg:px-3 md:px-3 px-[150px] lg:py-1 md:py-1 btn-bg-[#E20303] border-none lg:rounded-r-lg rounded lg:mt-0 md:mt-0 mt-2 text-[white] lg:absolute w-full md:w-0 lg:w-0 top-0 right-0 bg-[#991A1E]"
           >
             Sing Up
           </button>

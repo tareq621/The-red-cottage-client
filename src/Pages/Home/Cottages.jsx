@@ -16,18 +16,18 @@ const Cottages = () => {
       className="cottageLibrary relative bottom-20 "
     >
       <h1
-        className="text-[60px] font-belleza text-[#E20303] my-6
+        className="md:text-[60px] lg:text-[60px] text-[50px]  font-belleza text-[#E20303] my-6
             text-center"
       >
         Our Home Plan Styles
       </h1>
-      <div className="font-medium flex flex-wrap justify-center px-16 text-[60px]">
+      <div className="font-medium flex flex-wrap justify-center md:px-16 lg:px-16 px-6 text-[60px]">
         {cottages.map((cottage) => (
           <Cottage key={cottage.id} cottage={cottage}></Cottage>
         ))}
       </div>
       <div className="fromContainer md:ml-24 ml-12 md:mt-32 mt-28">
-        <h1 className="text-[#E20303] text-[60px] font-belleza ">
+        <h1 className="text-[#E20303] md:text-[60px] lg:text-[60px] text-[50px]   font-belleza ">
           Find Your Home Plan
         </h1>
         <div className="flex gap-5 font-belleza text-[#E20303] mt-14">
