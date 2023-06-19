@@ -8,14 +8,14 @@ const FromUs = () => {
   return (
     <section className="background">
       <section className="kuddus">
-        <div className="flex-cols md:flex lg:flex ">
-          <div className="md:mt-[210px] lg:mt-[250px] mt-72 md:ms-24 lg:ms-24 ms-16 lg:pt-0 pt-40">
-            <div className="md:text-[85px] lg:text-[85px] text-[50px] leading-[55px] lg:leading-[120px]  md:leading-[120px] font-medium ">
-              <p className="font-belleza">
+        <div className="flex-cols md:flex lg:flex  pl-36">
+          <div className="">
+            <div className="md:text-[85px] lg:text-[85px] text-[50px] font-medium ">
+              <p className="font-belleza pt-44">
                 Why Buy Directly<br></br> From Us?
               </p>
             </div>
-            <div className="md:mt-16 lg:mt-16 mt-3">
+            <div className="py-10">
               <a href="">
                 <button
                   style={{
@@ -37,18 +37,20 @@ const FromUs = () => {
           </div>
 
           <div
-            className="icon_section md:mr-0 lg:mr-0 mr-52 flex-cols 
-           md:flex-col flex-row justify-center md:ms-40 lg:ms-40 ms-36
-            gap-28 md:mt-[400px] lg:mt-[400px] mt-[40px]"
+            className="icon_section  flex-cols 
+           md:flex-col flex-row justify-center
+          md:mt-[380px] lg:mt-[350px] mt-[36px]"
           >
-            <div className="fromUsText">
-              <div className="flex justify-center items-center mg:gap-36 md:gap-36 gap-20 mr-28">
+            <div className="fromUsText ml-20 mr-28">
+              <div className="flex justify-center items-center gap-x-24 pb-5">
                 <div className="icon1 flex">
                   <img className="w-12 h-16" src={badge} alt="" />
 
-                  <p className="my-3 leading-normal font-pfdinmono pl-3 text-[16px]">
-                    Beautiful, award wining home plan design
-                  </p>
+                  <div>
+                    <p className="my-3 leading-normal font-pfdinmono pl-3 text-[16px]">
+                      Beautiful, award wining home plan design
+                    </p>
+                  </div>
                 </div>
                 <div className="icon2 flex">
                   <img className="w-12 h-16" src={customize} alt="" />
@@ -60,7 +62,7 @@ const FromUs = () => {
                 </div>
               </div>
 
-              <div className="flex justify-center items-center mg:gap-36 md:gap-36 gap-20 mr-28">
+              <div className="flex justify-center items-center gap-x-24">
                 <div className="icon1 flex">
                   <img className="w-12 h-16" src={designer} alt="" />
 
@@ -68,7 +70,7 @@ const FromUs = () => {
                     Our land designer have combined 55 years experience{" "}
                   </p>
                 </div>
-                <div className="icon2 flex ml-10">
+                <div className="icon2 flex">
                   <img className="w-12 h-16" src={pdf} alt="" />
                   <div>
                     <p className="my-3 pl-3 text-[16px] font-pfdinmono ">
@@ -80,7 +82,7 @@ const FromUs = () => {
               </div>
             </div>
             <div>
-              <li className="list-disc font-pfdinmono md:mt-24 lg:mt-24 mt-1">
+              <li className="list-disc font-pfdinmono md:mt-24 lg:mt-24 mt-1 ml-20">
                 Plan modification may take longer
               </li>
             </div>

@@ -1,11 +1,14 @@
 .background{
     position: relative;
-    bottom: 182px;
+    bottom: 175px;
 }
 
 .kuddus{
     background-image: url("../../assets/Website-20230527T011956Z-001//Website/HomePage/Assets/upper.png");
     background-size: cover;
+    background-position: center top;
+    width: auto;
+    height: min-content;
 }
 
 @media (max-width: 640px) {
@@ -17,6 +20,7 @@
     .kuddus{
         background-image: url("../../assets/Website-20230527T011956Z-001//Website/HomePage/Assets/upper.png");
         background-size: cover;
+        height: 1000px;
     
     }   
       }
