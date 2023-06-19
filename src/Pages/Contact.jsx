@@ -31,14 +31,14 @@ const Contact = () => {
   return (
     <section>
       <div className="relative">
-        <button className="absolute md:left-[40%] left-[27%] md:top-[1250px] lg:top-[1250px] top-[1650px]  hover:bg-none text-[#CE1616] font-pfdinmono text-[20px] py-3 px-7 w-64 bg-[#ffffff] rounded">
+        <button className="absolute md:left-[40%] left-[27%] md:top-[1250px] lg:top-[1320px] top-[1582px]  hover:bg-none text-[#CE1616] font-pfdinmono text-[20px] py-3 px-7 w-64 bg-[#ffffff] rounded">
           Browse All Design
         </button>
       </div>
       <div className="containerContact">
         <div className="pt-10">
-          <h1 className="text-[#000000] text-[54px] font-pfdinmono text-center">
-            About the Red Cottage
+          <h1 className="text-[#000000] text-[54px] mt-28 font-pfdinmono text-center">
+            CONTACT US
           </h1>
         </div>
       </div>

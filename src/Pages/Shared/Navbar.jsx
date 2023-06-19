@@ -31,13 +31,12 @@ const Navbar = () => {
 
   return (
     <section className=" w-full top-0 left-0">
-      <div className="flex md:items-start items-center justify-between  py-2 md:px-40 lg:px-36 px-10">
-        <div className="w-[120px] flex items-center">
+      <div className="flex md:items-start items-center justify-between  py-2 ">
+        <div className="w-[120px] flex items-center md:ml-40 lg-ml-40 ml-10">
           <Link to="/">
             <img src={logo} alt="" />
           </Link>
         </div>
-        <div></div>
         <div onClick={() => setOpen(!open)}>
           {open ? (
             <div className="absolute right-8 top-10 cursor-pointer md:hidden ">
@@ -59,7 +58,7 @@ const Navbar = () => {
             {menubar}
           </ul>
         </div>
-        <div className="md:flex flex mr-10 lg:mt-9 md:mt-9 mt-0 gap-4">
+        <div className="md:flex flex lg:mt-9 md:mt-9 mt-0 gap-4 lg:mr-10 md:mr-10 mr-20">
           <div className="callIcon">
             <img
               width="25"

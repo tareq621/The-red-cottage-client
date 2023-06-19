@@ -6,7 +6,7 @@ const About = () => {
     <section>
       <div className="containerAbout">
         <div className="pt-10">
-          <h1 className="text-[#000000] text-[54px] font-pfdinmono text-center">
+          <h1 className="text-[#000000] text-[54px] mt-28 font-pfdinmono text-center">
             About the Red Cottage
           </h1>
         </div>
