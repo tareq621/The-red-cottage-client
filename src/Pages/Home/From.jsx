@@ -15,13 +15,13 @@ const From = () => {
               Jump to Specific Plan
             </span>
           </label>
-          <select className="select">
-            <option>Any</option>
-            <option>Select 1</option>
-            <option>Select 2</option>
-            <option>Select 3</option>
-            <option>Select 4</option>
-            <option>Select 5</option>
+          <select defaultValue={"DEFAULT"} className="select">
+            <option value="DEFAULT">Any</option>
+            <option value="1">Select 1</option>
+            <option value="2">Select 2</option>
+            <option value="3">Select 3</option>
+            <option value="4">Select 4</option>
+            <option value="5">Select 5</option>
           </select>
         </div>
 
@@ -139,15 +139,13 @@ const From = () => {
                 Foundation
               </span>
             </label>
-            <select className="select">
-              <option disabled selected>
-                Any
-              </option>
-              <option>Select 1</option>
-              <option>Select 2</option>
-              <option>Select 3</option>
-              <option>Select 4</option>
-              <option>Select 5</option>
+            <select defaultValue={"DEFAULT"} className="select">
+              <option value="DEFAULT">Any</option>
+              <option value="1">Select 1</option>
+              <option value="2">Select 2</option>
+              <option value="3">Select 3</option>
+              <option value="4">Select 4</option>
+              <option value="5">Select 5</option>
             </select>
           </div>
           <div className="form-control max-w-md">
@@ -156,15 +154,13 @@ const From = () => {
                 Jump to Specific Plan
               </span>
             </label>
-            <select className="select">
-              <option disabled selected>
-                Any
-              </option>
-              <option>Select 1</option>
-              <option>Select 2</option>
-              <option>Select 3</option>
-              <option>Select 4</option>
-              <option>Select 5</option>
+            <select defaultValue={"DEFAULT"} className="select">
+              <option value="DEFAULT">Any</option>
+              <option value="1">Select 1</option>
+              <option value="2">Select 2</option>
+              <option value="3">Select 3</option>
+              <option value="4">Select 4</option>
+              <option value="5">Select 5</option>
             </select>
           </div>
           <div className=" divide-form flex gap-5">

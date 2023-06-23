@@ -74,7 +74,7 @@ const Footer = () => {
           />
           <button
             className="btn hover:bg-[#991A1E] 
-          font-pfdinmono lg:px-3 md:px-3 px-[150px] lg:py-1 md:py-1 btn-bg-[#E20303] border-none lg:rounded-r-lg rounded lg:mt-0 md:mt-0 mt-2 text-[white] lg:absolute w-full md:w-0 lg:w-0 top-0 right-0 bg-[#991A1E]"
+          font-pfdinmono lg:px-3 md:px-3 px-[150px] lg:py-1 md:py-1 btn-bg-[#E20303] border-none lg:rounded-r-lg rounded lg:mt-0 md:mt-0 mt-2 text-[white] lg:absolute w-full md:w-1/4 lg:w-1/4 top-0 right-0 bg-[#991A1E]"
           >
             Sing Up
           </button>
