@@ -7,7 +7,6 @@ import "../CSS/Navbar.css";
 import SearchPage from "../Home/SearchPage";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const [search, setSearch] = useState(false);
 
   const menubar = (
     <>
@@ -66,19 +65,21 @@ const Navbar = () => {
               alt=""
             />
           </div>
-          <div onClick={() => setSearch(!search)} className="searchIcon">
+          <div className="searchIcon">
             <div>
-              <img
-                width="25"
-                height="50"
-                src="https://img.icons8.com/ios-filled/50/search--v1.png"
-                alt="search--v1"
-              />
+              <label htmlFor="my_modal_7" className="btn btn-sm px-1">
+                <img
+                  width="25"
+                  height="50"
+                  src="https://img.icons8.com/ios-filled/50/search--v1.png"
+                  alt="search--v1"
+                />
+              </label>
             </div>
           </div>
-          {search && (
+          {{} && (
             <div>
-              <SearchPage search={search} setSearch={setSearch} />
+              <SearchPage />
             </div>
           )}
         </div>
