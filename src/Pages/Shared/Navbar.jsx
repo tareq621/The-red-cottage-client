@@ -10,19 +10,19 @@ const Navbar = () => {
 
   const menubar = (
     <>
-      <li className="text-[#D12928] font-pfdinmono hover:text-[#00CE1B] md:ml-8 md:my-0 my-7 text-[21px]">
+      <li className="text-[#D12928] font-pfdinmono hover:text-[#00CE1B] md:ml-8 md:my-0 my-4 md:text-[21px] lg:text-[18px] text-[18px]">
         <Link to="/browsealldesign">Browse All Design</Link>{" "}
       </li>
-      <li className="text-[#D12928] font-semibold font-pfdinmono hover:text-[#00CE1B]   md:ml-8 md:my-0 my-7 text-[21px]">
+      <li className="text-[#D12928] font-semibold font-pfdinmono hover:text-[#00CE1B]   md:ml-8 md:my-0 my-4 md:text-[21px] lg:text-[18px] text-[18px]">
         <Link to="/designservices">Design Services</Link>
       </li>
-      <li className="text-[#D12928] font-semibold font-pfdinmono hover:text-[#00CE1B]   md:ml-8 md:my-0 my-7 text-[21px]">
+      <li className="text-[#D12928] font-semibold font-pfdinmono hover:text-[#00CE1B]   md:ml-8 md:my-0 my-4 md:text-[21px] lg:text-[18px] text-[18px]">
         <Link to="/about">About</Link>
       </li>
-      <li className="text-[#D12928] font-semibold font-pfdinmono hover:text-[#00CE1B]   md:ml-8 md:my-0 my-7 text-[21px]">
+      <li className="text-[#D12928] font-semibold font-pfdinmono hover:text-[#00CE1B]   md:ml-8 md:my-0 my-4 md:text-[21px] lg:text-[18px] text-[18px]">
         <Link to="/faq">FAQ</Link>
       </li>
-      <li className="text-[#D12928] font-semibold font-pfdinmono hover:text-[#00CE1B]   md:ml-8 md:my-0 my-7 text-[21px]">
+      <li className="text-[#D12928] font-semibold font-pfdinmono hover:text-[#00CE1B]   md:ml-8 md:my-0 my-4 md:text-[21px] lg:text-[18px] text-[18px]">
         <Link to="/contact">Contact</Link>
       </li>
     </>
