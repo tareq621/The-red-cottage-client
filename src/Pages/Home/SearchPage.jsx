@@ -6,11 +6,14 @@ const SearchPage = () => {
   const navigate = useNavigate();
 
   const searchSubmit = (event) => {
-    event.preventDefault();
     const result = searchRef.current.value;
     console.log(result);
     navigate(`/search/${result}`);
-    event.target.reset();
+
+    if (event.key === "Enter") {
+      event.preventDefault();
+      event.target.reset();
+    }
   };
 
   return (

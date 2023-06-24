@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/drive-download-20230527T011812Z-001/RCFinalLogo.png";
 import menu from "../../assets/drive-download-20230527T011812Z-001/menu.png";
 import close from "../../assets/drive-download-20230527T011812Z-001/close.png";
+import call from "../../assets/Website-20230527T011956Z-001/Website/HomePage/Assets/call icon.png";
 import { useState } from "react";
 import "../CSS/Navbar.css";
 import SearchPage from "../Home/SearchPage";
@@ -10,19 +11,19 @@ const Navbar = () => {
 
   const menubar = (
     <>
-      <li className="text-[#D12928] font-pfdinmono hover:text-[#00CE1B] md:ml-8 md:my-0 my-4 md:text-[21px] lg:text-[18px] text-[18px]">
+      <li className="text-[#D12928] font-pfdinmono hover:text-[#00CE1B] md:ml-8 md:my-0 my-7  text-[21px]">
         <Link to="/browsealldesign">Browse All Design</Link>{" "}
       </li>
-      <li className="text-[#D12928] font-semibold font-pfdinmono hover:text-[#00CE1B]   md:ml-8 md:my-0 my-4 md:text-[21px] lg:text-[18px] text-[18px]">
+      <li className="text-[#D12928] font-semibold font-pfdinmono hover:text-[#00CE1B]   md:ml-8 md:my-0 my-7  text-[21px]">
         <Link to="/designservices">Design Services</Link>
       </li>
-      <li className="text-[#D12928] font-semibold font-pfdinmono hover:text-[#00CE1B]   md:ml-8 md:my-0 my-4 md:text-[21px] lg:text-[18px] text-[18px]">
+      <li className="text-[#D12928] font-semibold font-pfdinmono hover:text-[#00CE1B]   md:ml-8 md:my-0 my-7  text-[21px]">
         <Link to="/about">About</Link>
       </li>
-      <li className="text-[#D12928] font-semibold font-pfdinmono hover:text-[#00CE1B]   md:ml-8 md:my-0 my-4 md:text-[21px] lg:text-[18px] text-[18px]">
+      <li className="text-[#D12928] font-semibold font-pfdinmono hover:text-[#00CE1B]   md:ml-8 md:my-0 my-7  text-[21px]">
         <Link to="/faq">FAQ</Link>
       </li>
-      <li className="text-[#D12928] font-semibold font-pfdinmono hover:text-[#00CE1B]   md:ml-8 md:my-0 my-4 md:text-[21px] lg:text-[18px] text-[18px]">
+      <li className="text-[#D12928] font-semibold font-pfdinmono hover:text-[#00CE1B]   md:ml-8 md:my-0 my-7  text-[21px]">
         <Link to="/contact">Contact</Link>
       </li>
     </>
@@ -57,14 +58,7 @@ const Navbar = () => {
             {menubar}
           </ul>
         </div>
-        <div className="md:flex flex lg:mt-9 md:mt-9 mt-0 gap-4 lg:mr-10 md:mr-10 mr-20">
-          <div className="callIcon">
-            <img
-              width="25"
-              src="https://img.icons8.com/ios-glyphs/30/phone--v1.png"
-              alt=""
-            />
-          </div>
+        <div className="md:flex flex lg:mt-9 md:mt-9 mt-4 gap-4 lg:mr-10 md:mr-10 mr-20">
           <div className="searchIcon">
             <div>
               <label htmlFor="my_modal_7" className="btn btn-sm px-1">
@@ -76,6 +70,9 @@ const Navbar = () => {
                 />
               </label>
             </div>
+          </div>
+          <div className="callIcon">
+            <img width="26" height="50" src={call} alt="" />
           </div>
           {{} && (
             <div>
