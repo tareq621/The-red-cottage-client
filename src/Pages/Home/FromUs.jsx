@@ -47,7 +47,7 @@ const FromUs = () => {
                   <img className="w-12 h-16" src={badge} alt="" />
 
                   <div>
-                    <p className="my-3 leading-normal font-pfdinmono pl-3 text-[16px]">
+                    <p className="my-3 leading-normal font-pfdinmono  pl-3 text-[16px]">
                       Beautiful, award wining home plan design
                     </p>
                   </div>

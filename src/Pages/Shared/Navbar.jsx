@@ -58,12 +58,12 @@ const Navbar = () => {
             {menubar}
           </ul>
         </div>
-        <div className="md:flex flex lg:mt-9 md:mt-9 mt-4 gap-4 lg:mr-10 md:mr-10 mr-20">
+        <div className="md:flex flex lg:mt-9 md:mt-9 mt-4 gap-2 lg:mr-10 md:mr-10 mr-20">
           <div className="searchIcon">
             <div>
               <label htmlFor="my_modal_7" className="btn btn-sm px-1">
                 <img
-                  width="25"
+                  width="20"
                   height="50"
                   src="https://img.icons8.com/ios-filled/50/search--v1.png"
                   alt="search--v1"
@@ -71,8 +71,8 @@ const Navbar = () => {
               </label>
             </div>
           </div>
-          <div className="callIcon">
-            <img width="26" height="50" src={call} alt="" />
+          <div className="callIcon mt-1">
+            <img width="20" height="50" src={call} alt="" />
           </div>
           {{} && (
             <div>
